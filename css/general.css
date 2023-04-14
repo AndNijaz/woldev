@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+h1,
+h2 {
+  font-weight: 700;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  font-size: 1.8rem;
+  display: inline-block;
+}
+
+/* ------------------------ */
+/* CONTAINERS */
+/* ------------------------ */
+.container {
+  width: 120rem;
+}
+
+.container--hero {
+  margin: 0 auto;
+  max-width: 80rem;
+  text-align: center;
+}
+
+/* ------------------------ */
+/* HEADINGS */
+/* ------------------------ */
+.heading-primary {
+  font-size: 5.2rem;
+  background-image: linear-gradient(to bottom right, #8437fb, #2766f4);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  letter-spacing: -3px;
+}
+
+.heading-secondary {
+  font-size: 3rem;
+  letter-spacing: -1.5px;
+  font-weight: 600;
+  margin-bottom: 4.8rem;
+}
+
+/* ------------------------ */
+/* MARGINS */
+/* ------------------------ */
+.margin-bottom--sm {
+  margin-bottom: 2.4rem;
+}
+.margin-bottom--md {
+  margin-bottom: 4.8rem;
+}
+
+/* ------------------------ */
+/* BUTTONS */
+/* ------------------------ */
+.btn:link,
+.btn:visited {
+  background-color: #8437fb;
+  box-shadow: 0 0rem 4.8rem rgba(0, 0, 0, 0.1);
+  color: #fff;
+  padding: 1.6rem 3.2rem;
+  border-radius: 100px;
+  transition: all 0.3s;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.6rem;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #7732e2;
+}
