@@ -29,12 +29,32 @@ a:visited {
 /* ------------------------ */
 .container {
   width: 120rem;
+  margin: 0 auto;
 }
 
 .container--hero {
-  margin: 0 auto;
   max-width: 80rem;
   text-align: center;
+}
+
+.container--properties {
+  width: 80rem;
+  border-radius: 9px;
+  box-shadow: 0 0rem 4.8rem rgba(0, 0, 0, 0.2);
+  padding: 2.4rem 4.8rem;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+
+.container--properties::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 3px;
+  width: 100%;
+  background-image: linear-gradient(to bottom right, #8437fb, #2766f4);
 }
 
 /* ------------------------ */
@@ -74,7 +94,8 @@ a:visited {
 .btn:link,
 .btn:visited {
   background-color: #8437fb;
-  box-shadow: 0 0rem 4.8rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0rem 4.8rem rgba(0, 0, 0, 0.15);
+
   color: #fff;
   padding: 1.6rem 3.2rem;
   border-radius: 100px;
@@ -88,3 +109,18 @@ a:visited {
 .btn:active {
   background-color: #7732e2;
 }
+
+/* ------------------------ */
+/* GRIDS */
+/* ------------------------ */
+.grid {
+  display: grid;
+}
+
+.grid--2-cols {
+  grid-template-columns: 1fr 1fr;
+}
+
+/* ------------------------ */
+/* LIST */
+/* ------------------------ */
