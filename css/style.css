@@ -45,21 +45,26 @@
   padding: 9.6rem 0;
 }
 
+.section-hero .heading-secondary {
+  font-size: 3rem;
+}
+
 /* ------------------------ */
 /* SECTION PROPERTIES */
 /* ------------------------ */
 .heading-properties {
+  max-width: 55rem;
   margin: 0 auto;
   text-align: center;
-  max-width: 50rem;
   font-size: 2rem;
-  line-height: 1.6;
+  line-height: 1.4;
+  font-weight: 500;
   margin-bottom: 3.2rem;
 }
 
 .list-properties {
   list-style: none;
-  column-gap: 3.2rem;
+  column-gap: 3.2rem !important;
   row-gap: 1.6rem;
   color: #555;
 }
@@ -72,11 +77,41 @@
 }
 
 .checkmark-icon {
-  font-size: 2rem;
+  font-size: 2.4rem;
   color: #8437fb;
 }
 
 .properties-item:first-child,
 .properties-item:nth-child(3) {
   justify-self: end;
+}
+
+/* ------------------------ */
+/* SECTION SERVICES */
+/* ------------------------ */
+.section-services {
+  /* padding: 25.6rem 0 9.6rem 0; */
+  padding: 28.8rem 0 9.6rem 0;
+  background-color: #f1f1f1;
+  transform: translateY(-12rem);
+}
+
+.service-box {
+  background-color: #e4e4e4;
+  padding: 3.2rem 3.2rem;
+  border-radius: 9px;
+}
+
+.process {
+  display: grid;
+  grid-template-columns: 40fr 60fr;
+}
+
+.service-box:nth-child(2) {
+  grid-column: 2 / -1;
+}
+
+.service-img img {
+  width: 100%;
+  border-radius: 9px;
 }

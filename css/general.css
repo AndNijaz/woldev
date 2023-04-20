@@ -38,11 +38,13 @@ a:visited {
 }
 
 .container--properties {
-  width: 80rem;
-  border-radius: 9px;
-  box-shadow: 0 0rem 4.8rem rgba(0, 0, 0, 0.2);
-  padding: 2.4rem 4.8rem;
+  background-color: #fff;
   position: relative;
+  z-index: 999;
+  width: 80rem;
+  border-radius: 12px;
+  box-shadow: 0 0rem 4.8rem rgba(0, 0, 0, 0.2);
+  padding: 4.8rem 4.8rem;
   overflow: hidden;
   text-align: center;
 }
@@ -52,9 +54,13 @@ a:visited {
   position: absolute;
   top: 0px;
   left: 0px;
-  height: 3px;
+  height: 4px;
   width: 100%;
   background-image: linear-gradient(to bottom right, #8437fb, #2766f4);
+}
+
+.container--services {
+  max-width: 110rem;
 }
 
 /* ------------------------ */
@@ -72,10 +78,40 @@ a:visited {
 }
 
 .heading-secondary {
-  font-size: 3rem;
+  font-size: 3.6rem;
   letter-spacing: -1.5px;
   font-weight: 600;
   margin-bottom: 4.8rem;
+  color: #333;
+}
+
+.heading-secondary span {
+  font-weight: 700;
+}
+
+.heading-tertiary {
+  font-size: 3rem;
+  color: #333;
+  letter-spacing: -1.2px;
+  margin-bottom: 3.2rem;
+}
+
+.subheading {
+  font-size: 2rem;
+  letter-spacing: -1.5px;
+  font-weight: 600;
+  background-image: linear-gradient(to bottom right, #8437fb, #2766f4);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  text-transform: uppercase;
+  margin-bottom: 1.6rem;
+}
+
+.heading-break-container {
+  max-width: 65rem;
 }
 
 /* ------------------------ */
@@ -115,6 +151,8 @@ a:visited {
 /* ------------------------ */
 .grid {
   display: grid;
+  column-gap: 6.4rem;
+  row-gap: 3.2rem;
 }
 
 .grid--2-cols {
@@ -124,3 +162,12 @@ a:visited {
 /* ------------------------ */
 /* LIST */
 /* ------------------------ */
+
+/* ------------------------ */
+/* PARAGRAPH */
+/* ------------------------ */
+.paragraph {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  color: #555;
+}

@@ -28,10 +28,15 @@ Paragraph default: 1.6
 - Shades:
 - Accents:
 - Greys
+#333
 
 --- 05 SHADOWS
+box-shadow: 0 0rem 4.8rem rgba(0, 0, 0, 0.15);
+box-shadow: 0 0rem 4.8rem rgba(0, 0, 0, 0.2);
 
 --- 06 BORDER RADIUS
+Small: 9px
+Medium: 12px
 
 --- 07 WHITESPACE
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
