@@ -159,3 +159,19 @@
 /* ------------------------ */
 /* SECTION FEATURES */
 /* ------------------------ */
+.section-features {
+  padding-bottom: 9.6rem;
+}
+
+.feature-icon {
+  color: #421c7e;
+  display: block;
+  font-size: 3.2rem;
+  background-color: #f3ebff;
+  padding: 1.2rem;
+  border-radius: 50%;
+  margin-bottom: 1.4rem;
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+}
