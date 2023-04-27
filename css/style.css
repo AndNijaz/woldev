@@ -90,7 +90,6 @@
 /* SECTION SERVICES */
 /* ------------------------ */
 .section-services {
-  /* padding: 25.6rem 0 9.6rem 0; */
   padding: 28.8rem 0 9.6rem 0;
   background-color: #f1f1f1;
   transform: translateY(-12rem);
@@ -104,14 +103,59 @@
 
 .process {
   display: grid;
-  grid-template-columns: 40fr 60fr;
+  grid-template-columns: 1fr 1fr;
+}
+
+.process-reverse {
+  grid-template-columns: 1fr 1fr;
+}
+
+.process-list {
+  margin-left: 1.2rem;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  font-size: 1.4rem;
+  color: #555;
+}
+
+.process-item::before {
+  content: "\2022";
+  color: inherit;
+  display: inline-block;
+  width: 1.6rem;
 }
 
 .service-box:nth-child(2) {
   grid-column: 2 / -1;
+  height: 100%;
+  grid-row: 1 / 3;
+}
+
+.service-box:nth-child(2) img {
+  margin-top: 3rem;
+}
+
+.service-img {
+  padding-right: 2rem;
 }
 
 .service-img img {
   width: 100%;
   border-radius: 9px;
 }
+
+.languages {
+  display: flex;
+  justify-content: space-around;
+}
+
+.language-icon {
+  color: #555;
+  font-size: 4.8rem;
+}
+
+/* ------------------------ */
+/* SECTION FEATURES */
+/* ------------------------ */
