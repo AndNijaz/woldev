@@ -6,6 +6,8 @@
   align-items: center;
   justify-content: space-between;
   padding: 3.2rem 3.2rem;
+  position: relative;
+  height: 9.6rem;
 }
 
 .wolfdev-logo {
@@ -244,8 +246,8 @@
 .cta-img {
   background-image: linear-gradient(
       to right bottom,
-      rgba(235, 151, 78, 0.35),
-      rgba(230, 125, 34, 0.35)
+      rgba(120, 115, 115, 0.283),
+      rgba(5, 5, 5, 0.685)
     ),
     url(../assets/cta-picture.jpg);
   background-size: cover;

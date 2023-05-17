@@ -30,6 +30,7 @@ a:visited {
 .container {
   width: 120rem;
   margin: 0 auto;
+  padding: 0 2.4rem;
 }
 
 .container--hero {
@@ -252,4 +253,24 @@ a:visited {
 
 .center-text {
   text-align: center !important;
+}
+
+/* ------------------------ */
+/* MENU BUTTON */
+/* ------------------------ */
+.mobile-nav-button {
+  display: none;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.icon-mobile-nav {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: #333;
+}
+
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
 }
