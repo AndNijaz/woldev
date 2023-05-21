@@ -252,19 +252,38 @@
     /* padding: 3.2rem 2.4rem; */
     text-align: start;
     line-height: 1.4;
+    display: flex;
+    flex-direction: column;
   }
   .grid--2-cols {
     grid-template-columns: 1fr;
   }
+
   .list-properties {
-    /* margin: 0 auto; */
-    padding: 0 2.4rem;
+    margin: 0 auto;
+    /* padding: 0 2.4rem; */
   }
 
   .properties-item {
+    /* align-items: center; */
+    /* flex-direction: row-reverse; */
     gap: 1.6rem;
-    align-items: center;
+    text-align: center;
+    /* align-items: center; */
+    width: 100%;
   }
+
+  .properties-text {
+    /* display: block
+    ; */
+    width: 100%;
+    text-align: center;
+  }
+
+  .properties-item .checkmark-icon {
+    /* display: none; */
+  }
+
   .properties-item:first-child,
   .properties-item:nth-child(3) {
     justify-self: start;
@@ -283,7 +302,5 @@
   }
   .cta-form {
     grid-template-columns: 1fr;
-  }
-  .footer-logo img {
   }
 }
