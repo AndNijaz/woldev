@@ -20,6 +20,9 @@
   .container--hero {
     max-width: 80rem;
   }
+  .footer-logo img {
+    width: 85%;
+  }
 }
 
 /* ---------------- */
@@ -145,6 +148,9 @@
   .nav-open .icon-mobile-nav[name="menu-outline"] {
     display: none;
   }
+  .footer-logo img {
+    width: 80%;
+  }
 }
 
 /* ---------------- */
@@ -214,10 +220,70 @@
   .footer .grid {
     row-gap: 8rem;
   }
+  .footer-logo img {
+    width: 80%;
+  }
 }
 
 /* ---------------- */
 /* BELOW 544px (Phone) */
 /* ---------------- */
 @media (max-width: 34em) {
+  .container {
+    max-width: 40rem;
+  }
+  .container--services {
+    /* max-width: 80rem; */
+    max-width: 40rem;
+    grid-template-columns: 1fr;
+  }
+  .service-box:nth-child(2) {
+    grid-column: 1 /2;
+    height: 100%;
+    grid-row: 2;
+  }
+  .container--hero {
+    /* max-width: 70rem; */
+    max-width: 40rem;
+  }
+
+  .container--properties {
+    max-width: 35rem;
+    /* padding: 3.2rem 2.4rem; */
+    text-align: start;
+    line-height: 1.4;
+  }
+  .grid--2-cols {
+    grid-template-columns: 1fr;
+  }
+  .list-properties {
+    /* margin: 0 auto; */
+    padding: 0 2.4rem;
+  }
+
+  .properties-item {
+    gap: 1.6rem;
+    align-items: center;
+  }
+  .properties-item:first-child,
+  .properties-item:nth-child(3) {
+    justify-self: start;
+  }
+  .margin-right--sm {
+    margin: 0 1.2rem !important;
+    margin-bottom: 1.2rem !important;
+  }
+  .cta-text {
+    padding: 2.4rem 1.6rem;
+  }
+  .cta-text .heading-secondary {
+    text-align: left;
+    font-size: 2.4rem;
+    margin-bottom: 2.4rem;
+  }
+  .cta-form {
+    grid-template-columns: 1fr;
+  }
+  .footer-logo img {
+  }
 }
