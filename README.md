@@ -73,10 +73,5 @@ This project is self-initiated as a vision for a future company. It serves as a 
 
 ---
 
-## License
-This project is licensed under the [MIT License](LICENSE).
-
----
-
 ## Live Demo
 Check out the live version here: [WolDev Website](https://woldev.netlify.app/)
