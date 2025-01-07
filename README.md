@@ -1,6 +1,6 @@
 # WolDev: Future Company Website
 
-[Live Demo](https://woldev.netlify.app/)
+You can see the app here: [Live Demo](https://woldev.netlify.app/)
 
 ## Project Description
 WolDev is a prototype website created as an initial concept for a future company. It showcases a minimalistic design, serving as the foundation for further enhancements and functionality improvements. This website reflects a starting point for branding and online presence.
